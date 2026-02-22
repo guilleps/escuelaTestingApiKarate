@@ -1,0 +1,27 @@
+15:42:29.098 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @TEST-1
+15:42:29.248 [main] INFO  com.intuit.karate.Runner - using system property 'karate.env': dev
+15:42:29.408 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:42:31.210 [main] INFO  com.intuit.karate - karate.env system property was: dev 
+15:42:31.667 [main] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 239
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.10)
+1 > Accept-Encoding: gzip,deflate
+{"id":23423,"category":{"id":654,"name":"CATTEGORY-SAVAGE"},"name":"firulais","photoUrls":["https:\/\/unamglobal.unam.mx\/wp-content\/uploads\/2025\/08\/GATO_UNAM-1024x768.jpg"],"tags":[{"id":2,"name":"#CareYOurPet"}],"status":"available"}
+
+15:42:32.568 [main] DEBUG com.intuit.karate - response time in milliseconds: 896
+1 < 200
+1 < Date: Sat, 21 Feb 2026 20:42:32 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":23423,"category":{"id":654,"name":"CATTEGORY-SAVAGE"},"name":"firulais","photoUrls":["https://unamglobal.unam.mx/wp-content/uploads/2025/08/GATO_UNAM-1024x768.jpg"],"tags":[{"id":2,"name":"#CareYOurPet"}],"status":"available"}
+
+15:42:32.620 [main] INFO  com.intuit.karate - [print] created pet is: ID= 23423 NAME= firulais STATUS= available 

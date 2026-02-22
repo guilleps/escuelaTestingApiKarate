@@ -1,0 +1,18 @@
+{
+    "id": 23423,
+    "category": {
+    "id": 654,
+        "name": "CATTEGORY-SAVAGE"
+},
+    "name": "TomCAt",
+    "photoUrls": [
+    "https://unamglobal.unam.mx/wp-content/uploads/2025/08/GATO_UNAM-1024x768.jpg"
+],
+    "tags": [
+    {
+        "id": 2,
+        "name": "#CareYOurPet"
+    }
+],
+    "status": "pending"
+}
