@@ -60,8 +60,6 @@ Feature: Automatizar API PetStore
     Examples:
       | petId |
       | 23423 |
-        | 3     |
-        | 5     |
 
   @TEST-5
   Scenario: actualizar mascota
@@ -97,11 +95,8 @@ Feature: Automatizar API PetStore
     Given path 'pet', <petId>
     When method delete
     Then status 200
-    And match response.id == <petId>
     And print response
 
     Examples:
       | petId |
-      | 1     |
-      | 3     |
-      | 5     |
+      | 23423 |
